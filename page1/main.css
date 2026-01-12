@@ -1,0 +1,201 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 1250px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: rgb(80, 188, 231);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.603);
+    position: fixed;
+    top: 0;
+    width: 1250px;
+    height: 50px;
+    z-index: 10;
+    left: -5px;
+    font-weight: 600;
+}
+header h1 {
+    float: left;
+    color: white;
+}
+header nav {
+    position: relative;
+    left: 300px;
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    margin: 10px auto;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: 0,2 ease;
+    
+} 
+header nav :hover {
+    color: rgb(68, 162, 179);
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: auto;
+    padding: 0 15px;
+}
+.tombolsatu {
+    display: inline-block;
+    color: white;
+    background-color: rgb(50, 139, 167);
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border: solid 2px rgb(50, 139, 167);
+    border-radius: 7.5px;
+    text-decoration: none;
+}
+.tombolsatu p {
+    position: relative;
+    top: -10px;
+}
+.banner{
+    width: 1351px;
+    height: 300px;
+    position: relative;
+    left: -8px;
+    top: 85px;
+    overflow: hidden;
+}
+.banner img{
+    width: 100%;
+    position: relative;
+    top: -125px;
+}
+.bantex {
+    position: relative;
+    top: -450px;
+    left: 25px; 
+    color: white; 
+    max-width: 655px;
+}
+.bantex h1 {
+    font-size: 56px;
+}
+.bantex p {
+    font-size: 20px;
+    position: relative;
+    top: -30px;
+}
+.cont {
+    position: relative;
+    top: 125px;
+    left: 50px;
+}
+.opsi {
+    display: flex;
+    gap: 75px;
+}
+.opsi a {
+    text-decoration: none;
+}
+.opsi img {
+    width: 250px;
+}
+.oppsi p {
+    display: block;
+    background-color: rgb(80, 188, 231);
+    padding: 20px 20px;
+    height: 25px;
+    position: relative;
+    top: -85px;
+    color: white;
+}
+.jdlk3 {
+    position: relative;
+    left: 50px;
+    margin-top: 150px;
+}
+.listbtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    gap: 100px;
+}
+.btnpar {
+    display: block;
+    background-color: rgb(80, 188, 231);
+    background-image: linear-gradient(400deg, rgb(31, 73, 90), rgb(80, 188, 231));
+    width: 300px;
+    height: 350px;
+    border-radius: 15px
+}
+.btnpar a {
+    text-decoration: none;
+    color: white;
+}
+.btnpar h3 {
+    position: relative;
+    left: 10px;
+}
+.btnpar p {
+    position: relative;
+    left: 10px;
+    margin-top: -15px;
+}
+.btnpar img {
+    width: 300px;
+    position: relative;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.btnpar div {
+    display: block;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(80, 188, 231, 0.479);
+    position: relative;
+    top: -305px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+footer {
+  background-color: #2f3439;
+  color: #ccc;
+  padding: 40px 60px;
+  font-size: 14px;
+  width: 1235px;
+  position: relative;
+  display: flow-root;
+  left: -10px;
+  bottom: -100px;
+}
+.footer-content {
+  display: flex;
+  gap: 250px;
+}
+.footer-1 {
+    max-width: 250px;
+}
+.footer-1 li {
+  line-height: 20px;
+}
+.footer-1 a {
+    text-decoration: none;
+    color: #ccc;
+    position: relative;
+    left: -40px;
+}
+.footer-1 ul {
+    list-style: none;
+}
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 15px;
+  color: #aaa;
+  font-size: 13px;
+  position: relative;
+  left: 25px;
+}
+.ig img {
+    width: 15px;
+}
